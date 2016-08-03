@@ -1,8 +1,7 @@
-# Casper
+# Casper + Duoshuo
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+The default theme for [Ghost](http://github.com/tryghost/ghost/) with my personal [Duoshuo](http://duoshuo.com) comment system.
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
 
 ## Copyright & License
 
