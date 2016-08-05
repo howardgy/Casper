@@ -1277,12 +1277,12 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 .post-head.main-header {
-    height: 65vh;
+    height: 50vh;
     min-height: 180px;
 }
 
 .no-cover.post-head.main-header {
-    height: 85px;
+    height: 75px;
     min-height: 0;
     margin-bottom: 0;
     background: transparent;
