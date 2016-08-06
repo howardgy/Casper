@@ -1,15 +1,29 @@
-# Casper + Duoshuo
+# Casper for LaurentStudio
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/) with my personal [Duoshuo](http://duoshuo.com) comment system.
+[Live Demo](http://blog.)
 
+Personal theme based on Casper, the default theme for [Ghost](http://github.com/tryghost/ghost/), with following features:
+
+1. [Duoshuo](http://duoshuo.com) personal comment system
+2. Some CSS changes
+
+## How to use this theme
+
+1. Fork this repository, 'git clone' it to local.
+2. Edit codes (see next part in detail)
+3. Commit and sync ur changes
+4. Connect to ur remote repository, 'cd BLABLA/content/themes', and 'git clone' ur repository.
+5. Restart app
+6. Select this theme in /ghost/general/
+7. Refresh your blog and enjoy!
+
+## Edit codes
+
+1. Change the parameters in post.hbs (if you use Duoshuo), or replace them with other codes (like Disqus)
+    1. Open post.hbs
+    2. Find 'var duoshuoQuery = {short_name:"lurentstudio"};' and replace 'lurentstudio' with ur own id.
+2. Change the name and version in package.json as you wish.
 
 ## Copyright & License
 
 Copyright (c) 2013-2016 Ghost Foundation - Released under the MIT License.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
