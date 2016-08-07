@@ -765,7 +765,7 @@ body.nav-opened .nav {
     box-sizing: border-box;
     display: block;
     position: absolute;
-    bottom: 30px;
+    bottom: 40px; /* Customized */
     left: 30px;
     right: 30px;
     height: 38px;
@@ -1277,7 +1277,7 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 .post-head.main-header {
-    height: 50vh;
+    height: 40vh;
     min-height: 180px;
 }
 
@@ -1642,6 +1642,15 @@ body:not(.post-template) .post-title {
 /* ==========================================================================
    10. Subscribe - Generate those email subscribers
    ========================================================================== */
+
+.traffic {  /* Customized */
+    display: block;
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+}
 
 .gh-subscribe {
     border: #e7eef2 1px solid;
