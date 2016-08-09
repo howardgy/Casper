@@ -25,7 +25,7 @@ Personal theme based on Casper, the default theme for [Ghost](http://github.com/
     2. Find 'var duoshuoQuery = {short_name:"lurentstudio"};' and replace 'lurentstudio' with ur own id.
 2. Replace the Umeng traffic analysis codes with ur own ones, or delete them if u don't need it.
     1. Open navigation.hbs in folder /partials.
-    2. Find '<div class="traffic">...</div>', put ur codes in the div, or delete the div.
+    2. Find the div .traffic, put ur codes in the div, or delete the whole div.
 3. Change the name and version in package.json as you wish.
 4. Replace the '.ico' file under folder /assets with ur own one.
 
